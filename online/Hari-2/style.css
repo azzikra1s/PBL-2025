@@ -6,17 +6,19 @@ body {
 h1  {
     text-align: center;
     margin-bottom: 50px;
+    background-color: #e0e0e0;
+    text-transform: uppercase;
 }
 
 h3 {
     text-decoration: underline;
 }
 
-a {
-    color: blue;
-    text-decoration: underline;
-}
-
 li {
     margin-bottom: 15px;
+}
+
+p, pre {
+    text-indent: 24px;
+    font-family: Arial, Helvetica, sans-serif;
 }
