@@ -1,0 +1,47 @@
+body {
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#nav, #footer {
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    margin: 1%;
+}
+
+li {
+    display: inline;
+    padding: 5px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 60px 100px auto;
+    gap: 10px 10px;
+    margin: 1%;
+    background-color: #fff;
+}
+
+.grid-item {
+    background-color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    border: 1px solid grey;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.item5 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
